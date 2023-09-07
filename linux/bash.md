@@ -64,7 +64,7 @@ the content of this env separate with ```:``` . The lower index, the higher prio
 !ping
 ```
 
-12. run the command in x-th place of ```.bash_history``` file'
+12. run the command in x-th place of ```.bash_history``` file
 ```commandline
 !x # x is a number. for example, !31 run 31th command in .bash_history file
 ```
