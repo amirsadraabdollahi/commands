@@ -6,7 +6,7 @@ here some commands to apply sealed secrets in kubernetes
 ```commandline
 kubectl -n <namespace> get secret <secret_name> -o yaml > original-secret.yaml
 ```
-2. second create th SealedSecret object from the original-secret.yaml
+2. second create the SealedSecret object from the original-secret.yaml
 ```commandline
 cat original-secret.yaml | kubeseal --format yaml > sealed-secret.yaml
 ```
